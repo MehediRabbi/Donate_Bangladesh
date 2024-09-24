@@ -40,11 +40,7 @@ document.getElementById("donate-now-3").addEventListener("click", function () {
   const setDonateMoney = setMoney("input-amount-3", "donate-amount-3");
   
   totalAmount("input-amount-3", "my_modal_3", "Quota-Movement");
-  // historyUpdate("input-amount-3", "Quota-Movement");
+  
 });
 
-// document.getElementById("donate-now").addEventListener("click", function () {
-//   const inputAmount = parseFloat(document.getElementById("input-amount").value);
-//   const donateAmount = document.getElementById("donate-amount");
-//   donateAmount.innerText = inputAmount;
-// });
+
